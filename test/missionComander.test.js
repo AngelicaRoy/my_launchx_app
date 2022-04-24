@@ -1,4 +1,4 @@
-const MissionCommander = require('./../app/missionCommander');
+const MissionComander = require('./../app/missionComander');
 describe("Esto es una suite de pruebas", () => {
     test('Caso de prueba 1', () => {
       const result = 1 + 2 
@@ -6,9 +6,9 @@ describe("Esto es una suite de pruebas", () => {
     });
 })
   
-describe("Unit Tests for Mission Commander Class", () => {
+describe("Unit Tests for Mission Comander Class", () => {
     test('1) Create a mission commander objet', () => {
-        const myMissionCommander = new MissionCommander("Woopa")
-        expect(myMissionCommander.name).toBe("Woopa");
+        const myMissionComander = new MissionComander("Woopa")
+        expect(myMissionComander.name).toBe("Woopa");
     });
 })                
