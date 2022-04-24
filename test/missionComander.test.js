@@ -4,6 +4,11 @@ describe("Esto es una suite de pruebas", () => {
       const result = 1 + 2 
       expect(result).toBe(10);
     });
-  })
+})
   
-  
+describe("Unit Tests for Mission Commander Class", () => {
+    test('1) Create a mission commander objet', () => {
+        const myMissionCommander = new MissionCommander("Woopa")
+        expect(myMissionCommander.name).toBe("Woopa");
+    });
+})                
